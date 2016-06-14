@@ -11,14 +11,16 @@ function walk(currentDirPath, callback) {
             if (stat.isFile()) {
                 //callback(filePath, stat);
             } else if (stat.isDirectory()) {
+                if(name !== ".git"){
                 callback(name, callback);
+                }
             }
         });
 
     });
 }
-// walk('/Users/Jerry/Documents/web design/experiment/nodejs/filename', function(filePath, stat) {
-walk('path/to/read.js/folder', function(filePath, stat) {
+ walk('/Users/Jerry/Documents/web design/experiment/nodejs/filename', function(filePath, stat) {
+// walk('path/to/read.js/folder', function(filePath, stat) {
     var http = require('http');
     var url = 'www.omdbapi.com';
     var options = {
