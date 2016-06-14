@@ -19,8 +19,8 @@ function walk(currentDirPath, callback) {
 
     });
 }
- walk('/Users/Jerry/Documents/web design/experiment/nodejs/filename', function(filePath, stat) {
-// walk('path/to/read.js/folder', function(filePath, stat) {
+ //walk('/Users/Jerry/Documents/web design/experiment/nodejs/filename', function(filePath, stat) {
+ walk('path/to/read.js/folder', function(filePath, stat) {
     var http = require('http');
     var url = 'www.omdbapi.com';
     var options = {
