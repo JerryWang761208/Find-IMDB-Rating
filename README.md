@@ -11,3 +11,5 @@ Besides, we want to know the rating for the movie.
 1. If necessary, rename the directory same with name of the movie.
 For example, you have a folder called Movies. And there are two movies in "Movies" directory, such as frozen and the%20martians ( if there's space, switch it to %20).
 Then cd /path/to/Movies/, and node read.js
+
+![](https://drive.google.com/file/d/0B9iJ0-m_E_GPdHlleFdteEdvS3c/view?usp=sharing)
