@@ -12,4 +12,4 @@ Besides, we want to know the rating for the movie.
 For example, you have a folder called Movies. And there are two movies in "Movies" directory, such as frozen and the%20martians ( if there's space, switch it to %20).
 Then cd /path/to/Movies/, and node read.js
 
-![](https://drive.google.com/open?id=0B9iJ0-m_E_GPdHlleFdteEdvS3c)
+![](https://goo.gl/photos/ipM6vkXv3sr9Y3bL7)
